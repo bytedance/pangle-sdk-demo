@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <RelativeLayout
+        android:id="@+id/edit_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/ip"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="IP:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ip"
+            android:layout_toRightOf="@+id/ip"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/test_ip_edit"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint="Test IP"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/edit_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_ip"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/port"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="Port:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/port"
+            android:layout_toRightOf="@+id/port"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/test_port_edit"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint="Test Port"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_preserve"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edit_port"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg_blue_playable"
+        android:padding="6dp"
+        android:text="Preserve"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_clear_ip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_preserve"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg_blue_playable"
+        android:padding="6dp"
+        android:text="Clear"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

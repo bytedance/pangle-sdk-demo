@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/btn_mopub_reward_video"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="mopub adapter rewardVideo"
+        android:textColor="#3399cc"
+        android:theme="@style/PrimaryButton"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_mopub_full_video"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="mopub adapter fullVideo"
+        android:textColor="#3399cc"
+        android:theme="@style/PrimaryButton"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_mopub_banner"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="mopub adapter banner"
+        android:textColor="#3399cc"
+        android:theme="@style/PrimaryButton"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_mopub_interstitial"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="mopub adapter interstitial"
+        android:textColor="#3399cc"
+        android:theme="@style/PrimaryButton"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

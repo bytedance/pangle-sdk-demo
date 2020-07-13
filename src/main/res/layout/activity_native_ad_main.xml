@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_main_banner"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:visibility="gone"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="banner广告"
+            android:textColor="#3399cc"
+            android:theme="@style/PrimaryButton"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_main_banner_native"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="原生banner广告"
+            android:textColor="#3399cc"
+            android:visibility="gone"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+
+        <Button
+            android:id="@+id/btn_main_feed_lv"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:textColor="#3399cc"
+            android:text="feed广告demo(ListView)"
+            android:theme="@style/PrimaryButton"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/btn_main_feed_rv"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:textColor="#3399cc"
+            android:text="feed广告demo(RecyclerView)"
+            android:theme="@style/PrimaryButton"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_mian_insert"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="Interstitial AD"
+            android:textColor="#3399cc"
+            android:theme="@style/PrimaryButton"
+            android:visibility="gone"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_main_interstitial_native"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:textColor="#3399cc"
+            android:text="原生 INTERSTITIAL AD"
+            android:visibility="gone"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+
+        <Button
+            android:id="@+id/btn_mian_reward"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:textColor="#3399cc"
+            android:text="REWARD VIDEO"
+            android:theme="@style/PrimaryButton"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/btn_main_full"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:textColor="#3399cc"
+            android:text="FULL SCREEN VIDEO"
+            android:theme="@style/PrimaryButton"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/btn_main_draw_native"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="gone"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:textColor="#3399cc"
+            android:text="DRAW NATIVE VIDEO"
+            android:theme="@style/PrimaryButton"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+

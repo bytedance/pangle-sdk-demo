@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+
+    <Button
+        android:id="@+id/btn_mopub_reward_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mopub adapter rewardVideo"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_mopub_full_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mopub adapter fullVideo"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_mopub_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mopub adapter banner"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_mopub_interstitial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mopub adapter interstitial"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_mopub_feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mopub adapter feed"
+        android:textSize="14sp" />
+
+</LinearLayout>

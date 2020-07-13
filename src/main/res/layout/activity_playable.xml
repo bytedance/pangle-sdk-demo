@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <RelativeLayout
+        android:id="@+id/edit_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="URL:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/url"
+            android:layout_toRightOf="@+id/url"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/playable_url_edit"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint="Playable URL"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/edit_download_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_url"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/download_url"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="DWL:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/download_url"
+            android:layout_toRightOf="@+id/download_url"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/download_url_edit"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint="Download URL"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/edit_package_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_download_url"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/package_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="PKN:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/package_name"
+            android:layout_toRightOf="@+id/package_name"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/package_name_edit"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint="Package Name"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/edit_deeplink_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_package_name"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/deeplink"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="DPL:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/deeplink"
+            android:layout_toRightOf="@+id/deeplink"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/deeplink_edit"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint="Deeplink URL"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <com.union_test.toutiao.view.RadioButtonView
+        android:id="@+id/rbv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edit_deeplink_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        app:frameColor="#3C93CD"
+        app:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_verity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rbv_1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg_blue_playable"
+        android:padding="6dp"
+        android:text="验证Playable"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

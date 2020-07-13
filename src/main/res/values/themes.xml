@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.Light" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/default_window_bg</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.Light">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

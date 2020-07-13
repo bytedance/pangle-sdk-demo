@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">OverseasDemo</string>
+    <string name="i">i</string>
+    <string name="show_fullscreen_video">show ad</string>
+    <string name="load_vertical_fullscreen_video">load vertical fullscreen video</string>
+    <string name="load_horizontal_fullscreen_video">load horizontal fullscreen video</string>
+    <string name="main_sdk_version_tip">SDK Version %1$s</string>
+
+
+
+    <string name="admob_app_id">ca-app-pub-2547387438729744~9596900917</string>
+    <string name="admob_full_video_id">ca-app-pub-2547387438729744/6779165884</string>
+    <string name="admob_reward_video_id">ca-app-pub-2547387438729744/8126894817</string>
+    <string name="admob_interstitial_id">ca-app-pub-2547387438729744/5330195998</string>
+    <string name="admob_banner_id">ca-app-pub-2547387438729744/2789477346</string>
+
+
+    <!-- Toast提示-->
+    <string name="tt_toast_full_video_load_success">The FullScreenVideo load success.....</string>
+    <string name="tt_toast_full_video_has_cache">The FullScreenVideo has Cached.....</string>
+    <string name="tt_toast_full_video_ad_show">TTFullScreenVideoAd onAdShow.....</string>
+    <string name="tt_toast_full_video_click">TTFullScreenVideoAd onAdVideoBarClick....</string>
+    <string name="tt_toast_full_video_ad_close">TTFullScreenVideoAd onAdClose.....</string>
+    <string name="tt_toast_full_video_complete">TTFullScreenVideoAd onVideoComplete.....</string>
+    <string name="tt_toast_full_video_skip">TTFullScreenVideoAd onSkippedVideo.....</string>
+    <string name="tt_toast_full_video_cache">onRewardVideoCached.....</string>
+    <string name="tt_toast_reward_ad_show">TTRewardVideoAd onAdShow.....</string>
+    <string name="tt_toast_reward_video_click">TTRewardVideoAd onAdVideoBarClick.....</string>
+    <string name="tt_toast_reward_video_close">TTRewardVideoAd onAdClose.....</string>
+    <string name="tt_toast_reward_video_complete">TTRewardVideoAd onVideoComplete.....</string>
+    <string name="tt_toast_reward_video_error">TTRewardVideoAd onVideoError.....</string>
+    <string name="tt_toast_reward_video_verify">TTRewardVideoAd onRewardVerify......</string>
+
+    <!--native-->
+    <string name="tt_native_banner_download">Herunterladen</string>
+    <string name="tt_native_banner_call">Jetzt anrufen</string>
+    <string name="tt_native_banner_view">Ansehen</string>
+    <string name="tt_ad_source">Anzeigenquelle</string>
+
+</resources>

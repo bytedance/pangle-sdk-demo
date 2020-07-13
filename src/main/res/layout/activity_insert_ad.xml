@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="HardcodedText"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.union_test.toutiao.activity.InteractionActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/show_ad_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="show_ad(下载类)"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <Button
+        android:id="@+id/show_ad_dialog_landingpage"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="Ashow_ad(落地页类)"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+</LinearLayout>

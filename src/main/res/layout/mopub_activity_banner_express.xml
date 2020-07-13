@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="HardcodedText">
+
+
+        <LinearLayout
+            android:id="@+id/express_width_layout"
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/express_width"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:hint="Enter the desired view width"
+                android:inputType="number"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/express_height_layout"
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/express_height"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:hint="Enter the desired view height"
+                android:inputType="number"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/native_line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/native_txt"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="native banner"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/native_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_express_load"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_native_load_600_300"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="600 * 300"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton" />
+
+
+            <Button
+                android:id="@+id/btn_native_banner_640_100"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="640 * 100"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton" />
+
+            <Button
+                android:id="@+id/btn_native_banner_640_400"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="640 * 400"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/native_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/native_layout"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_native_load_600_500"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="600 * 500"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton" />
+
+
+            <Button
+                android:id="@+id/btn_native_banner_600_260"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="600 * 260"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton" />
+
+            <Button
+                android:id="@+id/btn_native_banner_600_90"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="600 * 90"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/native_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/native_layout2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_native_load_600_150"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="600 * 150"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton" />
+
+
+            <Button
+                android:id="@+id/btn_native_banner_690_388"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="690 * 388"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton" />
+
+            <Button
+                android:id="@+id/btn_native_banner_xxx"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="any_size"
+                android:textColor="#3399cc"
+                android:textSize="14sp"
+                android:theme="@style/PrimaryButton"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/express_line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/express_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="express banner"
+            android:textSize="16sp" />
+
+        <com.union_test.toutiao.view.LoadMoreRecyclerView
+            android:id="@+id/my_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#50CFCFCF">
+
+            <com.mopub.mobileads.MoPubView
+                android:id="@+id/adview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+    </LinearLayout>
+</ScrollView>

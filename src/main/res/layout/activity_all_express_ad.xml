@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/express_native_ad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="Express_native_ad"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <Button
+        android:id="@+id/express_native_ad_list"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="express native ad list"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+    <Button
+        android:id="@+id/express_banner_ad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="express_banner_ad"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+    <Button
+        android:id="@+id/express_interstitial_ad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="express_interstitial_ad"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+    <Button
+        android:id="@+id/express_splash_ad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="express_splash_ad"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:visibility="gone"
+        android:theme="@style/PrimaryButton" />
+
+
+    <Button
+        android:id="@+id/express_rewarded_video_ad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="express_rewarded_video_ad"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+    <Button
+        android:id="@+id/express_full_screen_video_ad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="express_full_screen_video_ad"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+    <Button
+        android:id="@+id/express_draw_video_ad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:theme="@style/PrimaryButton"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="express_draw_video_ad"
+        android:textColor="#3399cc"
+        android:textSize="14sp"
+       />
+
+</LinearLayout>

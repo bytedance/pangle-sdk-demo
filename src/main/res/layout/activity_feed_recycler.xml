@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_fra_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_fra_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="LinearLayoutManager"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_fra_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GridLayoutManager"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_fra_staggered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StaggeredGridLayoutManager"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg_fra_group_orientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_fra_orientation_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="vertical"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_fra_orientation_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+    </RadioGroup>
+
+
+    <com.union_test.toutiao.view.LoadMoreRecyclerView
+        android:id="@+id/my_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <SurfaceView
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+</LinearLayout>

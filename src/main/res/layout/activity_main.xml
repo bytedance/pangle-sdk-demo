@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_adapter"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="Third-party ad adapter"
+            android:textColor="#3399cc"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+        <Button
+            android:id="@+id/btn_express_ad"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="ALL  express  ad"
+            android:textColor="#3399cc"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+
+        <Button
+            android:id="@+id/btn_all_native_ad"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="all native ad"
+            android:textColor="#3399cc"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+
+        <Button
+            android:id="@+id/btn_privacy_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="show privacy dialog"
+            android:textColor="#3399cc"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+        <Button
+            android:id="@+id/btn_get_gdrp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="get gdrp value"
+            android:textColor="#3399cc"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+        <Button
+            android:id="@+id/btn_set_gdrp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="set gdrp value"
+            android:textColor="#3399cc"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+        <Button
+            android:id="@+id/btn_all_test_tool"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="all test tool"
+            android:textColor="#3399cc"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="textPersonName"
+            tools:ignore="TextViewEdits" />
+
+    </LinearLayout>
+
+</ScrollView>
+

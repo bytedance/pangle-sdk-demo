@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <RelativeLayout
+        android:id="@+id/edit_gpsx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/gpsx"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/gpsx"
+            android:layout_toRightOf="@+id/gpsx"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/gpsx_edit"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint="x"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/edit_gpsy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_gpsx"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/gpsy"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20sp" />
+
+        <LinearLayout
+            style="@style/InputBoxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/gpsy"
+            android:layout_toRightOf="@+id/gpsy"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/gpsy_edit"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:hint="y"
+                android:textColorHint="#CFCFCF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edit_gpsy"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg_blue_playable"
+        android:padding="6dp"
+        android:text="Load"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_clear_gps"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_load"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg_blue_playable"
+        android:padding="6dp"
+        android:text="Clear"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

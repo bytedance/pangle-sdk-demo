@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/express_width_layout"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/express_width"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:hint="Enter the desired view width"
+            android:inputType="number"
+            android:textColorHint="#CFCFCF" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/express_height_layout"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/express_width_layout"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/express_height"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:hint="Enter the desired view height"
+            android:inputType="number"
+            android:textColorHint="#CFCFCF" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_express_load"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/express_height_layout"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textColor="#3399cc"
+        android:text="load ad"
+        android:theme="@style/PrimaryButton"
+        android:textSize="14sp" />
+
+
+    <com.union_test.toutiao.view.LoadMoreListView
+        android:id="@+id/my_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 使用SurfaceView时才需要设置，宽高为0的SurfaceView 解决闪黑屏问题-->
+    <SurfaceView
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+</LinearLayout>
