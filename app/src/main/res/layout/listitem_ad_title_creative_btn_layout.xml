@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_title_creative_btn_layout"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#F4F5F7">
+
+    <RelativeLayout
+        android:id="@+id/tt_ad_logo"
+        android:layout_width="40dp"
+        android:layout_height="18dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tv_listitem_ad_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:ellipsize="end"
+        android:layout_toRightOf="@+id/tt_ad_logo"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:maxLength="14"
+        android:text="this is title....."
+        android:textSize="18sp"
+        android:layout_toLeftOf="@+id/tt_creative_btn"/>
+
+
+    <Button
+        android:id="@+id/tt_creative_btn"
+        android:layout_width="90dp"
+        android:padding="3dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/btn_bg_creative"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="pangle"
+        android:textColor="#B22222"
+        android:textSize="14sp" />
+</RelativeLayout>

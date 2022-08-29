@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_mra_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="2dp"
+        android:paddingLeft="13dp"
+        android:drawableLeft="@drawable/arror_foreground"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/loadRewardAd"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Load Ad"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <Button
+        android:id="@+id/showRewardAd"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="Show Ad"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+</LinearLayout>

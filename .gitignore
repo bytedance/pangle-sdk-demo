@@ -1,0 +1,12 @@
+bin
+*.iml
+.settings
+local.properties
+.DS_Store
+build/
+.gradle/
+.idea/
+.navigation/
+lint-report.xml
+captures/
+

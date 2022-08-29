@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.union_test.internationad"> <!-- overrideLibrary for minSdkVersion is 9 -->
+    <uses-sdk tools:overrideLibrary="      android.support.graphics.drawable.animated,      android.support.graphics.drawable,      android.support.v4,      android.support.mediacompat,      android.support.fragment,      android.support.coreui,      android.support.coreutils,      android.support.compat,      android.arch.lifecycle,      android.arch.core,      android.support.v7,      com.dingmouren.layoutmanagergroup,      com.mopub.mobileads.native_video,      com.mopub.mobileads.native_static,      com.mopub.mobileads.base,      com.mopub.mobileads.rewarded_video,      com.mopub.mobileads.banner,      com.mopub.mobileads.interstitial,      com.squareup.leakcanary,      com.squareup.leakcanary.analyzer,      com.squareup.leakcanary.android.noop,      com.bytedance.crash,    com.bytedance.metasec" />
+    <!-- Required permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- if use textureView for video ad，please add this permission -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- for demo, ignore, not needed in your app -->
+    <!-- <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> -->
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+    <application
+        android:name="com.union_test.new_api.DemoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
+
+        <activity android:name="com.union_test.new_api.activity.nativead.PAGNativeAppOpenAdActivity" />
+        <activity android:name="com.union_test.new_api.activity.expressad.PAGBannerActivity" />
+
+        <activity
+            android:name="com.union_test.new_api.activity.PAGMainActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.union_test.new_api.activity.AppOpenAdActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.union_test.new_api.activity.nativead.PAGFeedListActivity"/>
+        <activity
+            android:name="com.union_test.new_api.activity.PAGRewardVideoActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.union_test.new_api.activity.PAGInterstitialActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.union_test.new_api.activity.testtools.PlayableToolActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.union_test.new_api.activity.testtools.AllTestToolActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.union_test.new_api.activity.ApiExampleActivity" />
+        <activity android:name="com.union_test.new_api.activity.nativead.PAGFeedRecyclerActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2547387438729744~9596900917" /> <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

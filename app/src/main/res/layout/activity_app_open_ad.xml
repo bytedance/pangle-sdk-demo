@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_fsv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title"
+        android:drawableLeft="@drawable/arror_foreground"
+        android:drawablePadding="2dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="13dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/btn_app_open_ad_load"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Load Horizontal AppOpenAd"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+    <Button
+        android:id="@+id/btn_app_open_ad_vertical_load"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:theme="@style/PrimaryButton"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Load Vertical AppOpenAd"
+        android:textColor="#000"
+        android:textSize="14sp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_app_open_ad_show"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="Show Ad"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+</LinearLayout>

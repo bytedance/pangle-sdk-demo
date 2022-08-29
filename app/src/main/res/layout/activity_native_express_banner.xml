@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/btn_eb_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="2dp"
+        android:paddingLeft="13dp"
+        android:drawableLeft="@drawable/arror_foreground"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Click button to load and show Banner Ad"
+        android:textColor="#969696"
+        android:textSize="16sp" />
+
+    <com.union_test.new_api.view.LoadMoreRecyclerView
+        android:id="@+id/my_list"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/showBanner"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_below="@+id/my_list"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="Show Banner"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <FrameLayout
+        android:id="@+id/express_container"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:background="#203399cc" />
+
+</LinearLayout>

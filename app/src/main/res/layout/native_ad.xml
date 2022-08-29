@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_native_ad_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_native_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/tv_native_ad_title"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/iv_native_icon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/iv_native_image"
+        android:layout_marginLeft="3dp"
+        android:layout_marginStart="3dp" />
+
+    <LinearLayout
+        android:id="@+id/tv_source_desc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/iv_native_image"
+        android:layout_toRightOf="@id/iv_native_icon"
+        android:layout_toEndOf="@id/iv_native_icon"
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            android:id="@+id/tv_native_ad_desc"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/img_native_dislike"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/tt_dislike_icon" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_native_creative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignTop="@+id/tv_source_desc_layout"
+        android:textSize="10sp"
+        />
+
+</RelativeLayout>

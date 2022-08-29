@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:id="@+id/express_width_layout"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/express_width"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:hint="Enter the desired view width"
+            android:inputType="number"
+            android:textColorHint="#CFCFCF" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/express_height_layout"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/express_width_layout"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/express_height"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:hint="Enter the desired view height"
+            android:inputType="number"
+            android:textColorHint="#CFCFCF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_native_interstitialLoad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Load Native Interstitial Ad"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <Button
+        android:id="@+id/btn_express_show"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Show Native Interstitial"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+    <View
+        android:id="@+id/express_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/express_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="express interstitial"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/size_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_size_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="1:1"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+
+        <Button
+            android:id="@+id/btn_size_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="2:3"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+
+        <Button
+            android:id="@+id/btn_size_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="3:2"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:theme="@style/PrimaryButton" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_express_interstitialShow"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Show Express Interstitial Ad"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+
+</LinearLayout>

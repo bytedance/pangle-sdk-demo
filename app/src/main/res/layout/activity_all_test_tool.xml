@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+    <Button
+        android:id="@+id/btn_tools_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title"
+        android:text="Tools"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/arror_foreground"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#E3E2E2"/>
+
+    <Button
+        android:id="@+id/btn_playable"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/demo_tools"
+        android:drawableRight="@drawable/draw_forward"
+        android:stateListAnimator="@null"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:text="Playable Verification Tool"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:background="#E3E2E2"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E3E2E2"/>
+
+
+</LinearLayout>

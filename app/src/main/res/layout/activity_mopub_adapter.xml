@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/btn_MA_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title"
+        android:text="Mopub Adapter"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="2dp"
+        android:paddingLeft="13dp"
+        android:drawableLeft="@drawable/arror_foreground"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#E3E2E2"/>
+
+    <Button
+        android:id="@+id/btn_mopub_reward_video"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="20dp"
+        android:drawableRight="@drawable/draw_forward"
+        android:stateListAnimator="@null"
+        android:paddingLeft="25dp"
+        android:paddingRight="12dp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:text="Mopub Adapter Reward Video"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:background="#E3E2E2"/>
+
+    <Button
+        android:id="@+id/btn_mopub_full_video"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="20dp"
+        android:drawableRight="@drawable/draw_forward"
+        android:stateListAnimator="@null"
+        android:paddingLeft="25dp"
+        android:paddingRight="12dp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:text="Mopub Adapter Full Video"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:background="#E3E2E2"/>
+    <Button
+        android:id="@+id/btn_mopub_banner"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="20dp"
+        android:drawableRight="@drawable/draw_forward"
+        android:stateListAnimator="@null"
+        android:paddingLeft="25dp"
+        android:paddingRight="12dp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:text="Mopub Adapter Banner"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:background="#E3E2E2"/>
+
+    <Button
+        android:id="@+id/btn_mopub_interstitial"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="20dp"
+        android:drawableRight="@drawable/draw_forward"
+        android:stateListAnimator="@null"
+        android:paddingLeft="25dp"
+        android:paddingRight="12dp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:text="Mopub Adapter Interstitial"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:background="#E3E2E2"/>-->
+
+    <Button
+        android:id="@+id/btn_mopub_feed"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="20dp"
+        android:drawableRight="@drawable/draw_forward"
+        android:stateListAnimator="@null"
+        android:paddingLeft="25dp"
+        android:paddingRight="12dp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:text="Mopub Adapter Feed"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:theme="@style/PrimaryButton" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E3E2E2"/>
+
+</LinearLayout>
